@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>Formulario</title>
+</head>
+<body>
+    <h2>Ingresa información</h2>
+    <form action="{{ url_for('procesar_nombres') }}" method="post">
+        <label for="nombre1">Nombre 1:</label>
+        <input type="text" name="nombre1" required><br>
+
+        <label for="nombre2">Nombre 2:</label>
+        <input type="text" name="nombre2" required><br>
+
+        <label for="nombre3">Nombre 3:</label>
+        <input type="text" name="nombre3" required><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <div>
+        {% if Nombre_mas_largo %}
+            <p>Nombre_mas_largo: {{ Nombre_mas_largo }}</p>
+        {% endif %}
+    </div>
+    <div>
+        {% if Largo_nombre_mas_largo %}
+            <p>Largo_nombre_mas_largo: {{ Largo_nombre_mas_largo }}</p>
+        {% endif %}
+    </div>
+    
+</body>
+</html>

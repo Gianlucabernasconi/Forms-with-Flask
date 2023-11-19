@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+
+</head>
+<body>
+    <h2>Selecciona una opción</h2>
+
+    
+    <form action="{{ url_for('mostrar_pagina_promedio') }}" method="get">
+        <input type="submit" value="Calcular Promedio">
+    </form>
+
+   
+    <form action="{{ url_for('mostrar_pagina_nombres') }}" method="get">
+        <input type="submit" value="Procesar Nombres">
+    </form>
+</body>
+</html>

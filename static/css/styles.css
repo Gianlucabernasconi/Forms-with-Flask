@@ -1,0 +1,140 @@
+
+/* Estilos para página de inicio */
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+h2 {
+    color: #ffffff;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #DCC769;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px auto; 
+    font-size: 16px;
+    display: block; 
+}
+
+input[type="submit"]:hover {
+    background-color: #AFB46F;
+}
+
+/* Fondo de pantalla */
+body {
+    background-image: url('img/fondo4.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+/* Estilos para el formulario de promedios */
+form {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+input[type="number"] {
+    width: 100%;
+    max-width: 200px; 
+    padding: 10px;
+    margin: 0 auto; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px; 
+}
+input[type="submit"] {
+    background-color: #DCC769;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos para el mensaje de resultado */
+p {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+
+/* Estilos para la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #fdfeff;
+}
+
+/* Estilos para el formulario de nombres */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    width: 100%;
+    max-width: 200px; 
+    padding: 10px;
+    margin: 0 auto; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px; 
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos para el resultado */
+.result {
+    margin-top: 20px;
+    font-weight: bold;
+}
